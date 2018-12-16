@@ -7,4 +7,52 @@
     android:orientation="vertical"
     tools:context=".SignUpActivity2">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User ID"
+        />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:hint="이메일 형식으로 입력해주세요."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="User PassWord"
+        />
+
+    <EditText
+        android:id="@+id/pasTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:imeOptions="actionGo"
+        android:hint="8자리 이상입력해주세요."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/comBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:textColor="#ffffff"
+        android:background="#008577"/>
+
+
+
 </LinearLayout>
