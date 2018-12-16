@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#222200"
+    android:background="#F2F2F2"
     android:padding="10dp"
 
     tools:context=".LoginActivity">
@@ -76,6 +76,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/signUpTxt"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="15dp"
         android:layout_width="wrap_content"
